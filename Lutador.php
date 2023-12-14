@@ -134,14 +134,15 @@ class Lutador
     #region Métodos
     function apresentar()
     {
-        echo "Lutador: " . $this->getNome();
-        echo "Origem: " . $this->getNacionalidade();
-        echo $this->getIdade() . " anos";
-        echo $this->getAltura() . " m de altura";
-        echo "Pesando: " . $this->getPeso();
-        echo "Ganhou: " . $this->getVitorias();
-        echo "Perdeu: " . $this->getDerrotas();
-        echo "Empatou: " . $this->getEmpates();
+        echo "</br>-----CHEGOU A HORA----- </br>";
+        echo " lutador: " . $this->getNome();
+        echo " origem: " . $this->getNacionalidade();
+        echo $this->getIdade() . " anos ";
+        echo "</br>" . $this->getAltura() . " m de altura ";
+        echo "pesando: " . $this->getPeso();
+        echo " ganhou: " . $this->getVitorias();
+        echo " perdeu: " . $this->getDerrotas();
+        echo " empatou: " . $this->getEmpates();
     }
 
     function status()
